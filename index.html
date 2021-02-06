@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Etch-a-sketch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <header>
+      <h1>Etch a Sketch</h1>
+
+    </header>
+    <div id="userinput">
+      <input type="number" name="size" id="size" value="4" min="1" max="64">
+      <button id="reset-field">Create</button>
+      <p>Illegal value range. Enter a number from 1 to 64 and try again.</p>
+    </div>
+    <div id="game"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

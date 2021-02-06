@@ -1,0 +1,47 @@
+
+html, body {
+  box-sizing: border-box;
+  font-size: 16px;
+  margin: 0;
+  background-color: #eee; 
+  color: #2d2d2d;
+}
+
+#container {
+  width: 640px;
+  height: 640px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+#userinput {
+  margin-bottom: 50px;
+}
+
+#userinput input {
+  width: 4em;
+}
+
+#userinput p {
+  margin-top: 1rem;
+  visibility: hidden;
+}
+
+#game {
+  padding: 0;
+  margin: 0 auto;
+  width: 640px;
+  height: 640px;  
+  display: grid;
+  border: 20px solid crimson;  
+}
+
+#game .box { 
+  text-align: center;
+  background-color: #fff;
+}
+
+#game div.black {
+  background-color: #000;
+}
+
